@@ -1,3 +1,11 @@
 .container {
   text-align: center;
 }
+
+.titulo {
+  font-style: oblique;
+}
+
+.rapidinha {
+  font-style: italic;
+}
