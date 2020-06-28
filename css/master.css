@@ -1,11 +1,12 @@
 .container {
-  text-align: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.titulo {
-  font-style: oblique;
+.filme {
+    padding-bottom: 70px
 }
 
 .rapidinha {
-  font-style: italic;
+    font-style: italic
 }
