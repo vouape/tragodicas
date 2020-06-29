@@ -1,6 +1,8 @@
 .container {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin: auto;
 }
 
 .filme {
@@ -10,3 +12,26 @@
 .rapidinha {
     font-style: italic
 }
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    color: #505050
+}
+
+h3 {
+    color: #505050
+}
+
+p {
+    color: #505050
+}
+
+/*
+#subir{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+*/
+
