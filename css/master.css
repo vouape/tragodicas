@@ -5,14 +5,6 @@
     margin: auto;
 }
 
-.logo {
-    width: 180px;
-    height: 180px;
-    margin-top: 30px;
-    border-radius: 100%;
-    background-color: #ffb4a6;
-}
-
 .filme {
     padding-bottom: 50px
 }
@@ -34,3 +26,5 @@ h3 {
 p {
     color: #505050
 }
+
+
