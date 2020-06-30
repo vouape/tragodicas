@@ -6,25 +6,35 @@
 }
 
 .filme {
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 
 .rapidinha {
-    font-style: italic
+    font-style: italic;
 }
 
 h1 {
     padding-top: 20px;
-    padding-bottom: 35px;
-    color: #505050
+    padding-bottom: 50px;
+    color: #505050;
 }
 
 h3 {
-    color: #505050
+    color: #505050;
 }
 
 p {
-    color: #505050
+    color: #505050;
 }
 
+.pagination > li > a
+{
+    background-color: white;
+    color: #505050;
+}
 
+.pagination > .active > a
+{
+    background-color: #FFB4A6 !Important;
+    border: solid 1px #FFB4A6 !Important;
+}
