@@ -23,24 +23,34 @@ h1 {
 
 h3 {
     color: #505050;
+    margin-bottom: 15px;
 }
 
 p {
     color: #505050;
 }
 
-.onde_assistir {
-    
-}
+.onde_assistir {}
 
-.pagination > li > a
-{
+.pagination > li > a {
     background-color: white;
     color: #505050;
 }
 
-.pagination > .active > a
-{
+.pagination > .active > a {
     background-color: #FFB4A6 !Important;
     border: solid 1px #FFB4A6 !Important;
+}
+
+a {
+    text-decoration: none !important
+}
+
+.sem_link {
+    color: #009688;
+}
+
+.texto_rodape {
+    margin-top: 25px;
+    color: #909090;
 }
