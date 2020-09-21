@@ -89,7 +89,7 @@ p {
 
     .div-img {
         display: block;
-        width: 100%;
+        width: 80%;
         margin: 40px auto 40px;
     }
 
@@ -102,5 +102,5 @@ p {
     }
 
     .intro {
-        width: 100%;
+        width: 90%;
         margin: 40px auto 80px;
