@@ -83,7 +83,7 @@ p {
 @media only screen and (max-device-width: 900px) {
     .div-artigo {
         display: block;
-        width: 90%;
+        width: 80%;
         margin: 40px auto 80px
     }
 
