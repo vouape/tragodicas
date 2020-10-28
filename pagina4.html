@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171041507-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-171041507-2');
+    </script>
+    <!-- Fim script google analytcs -->
+
+    <meta charset="utf-8" http-equiv="content-type" content="text/html">
+
+    <title>Trago Dicas</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/master.css">
+
+    <link rel="shortcut icon" href="imagens/icone_trago_dicas_tiny.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html">
+            <img src="imagens/velho-cachimbo-tiny.png" alt="logo - velho com cachimbo" style="width:180px;height:180px;margin-top: 30px; border-radius: 100%; background-color: #ffb4a6">
+        </a>
+        <a href="index.html">
+            <h1>Trago Dicas</h1>
+            <h6 id="subtitulo">Um site de séries e filmes para os quarenteners</h6>
+        </a>
+
+        <!-- INÍCIO FILMES -->
+        <div id="bloco_de_filmes">
+
+
+            <div class="filme">
+                <h3>Estômago</h3>
+                <iframe width="704" height="396" src="https://www.youtube.com/embed/0VZIVlyyJPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="rapidinha">Quer conquistar o crush? Oferece comida que ele(a) vai.</p>
+                <a class="onde_assistir" href="https://www.stremio.com/" target="_blank">Onde assistir</a>
+            </div>
+
+
+
+
+            <!-- ÚLTIMO FILME DEVE ENTRAR ACIMA-->
+
+        </div>
+
+        <!-- FIM FILMES -->
+
+        <!-- PAGINAÇÃO -->
+
+        <nav aria-label="Navegação de páginas">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="pagina2.html" aria-label="Anterior">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="pagina2.html">2</a></li>
+                <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                <li class="page-item  disabled">
+                    <a class="page-link" href="#" aria-label="Próximo">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- FIM PAGINAÇÃO -->
+
+        <!-- INÍCIO RODAPÉ -->
+
+        <p class="texto_rodape">Dicas de <a href="https://www.instagram.com/debouista/" target="_blank">@debouista</a> e <a href="https://www.instagram.com/va_lontano/" target="_blank">@va_lontano</a></p>
+
+        <!-- FIM RODAPÉ -->
+
+    </div>
+    <!--FIM CONTAINER-->
+
+    <!-- scripts do bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('body').bootstrapMaterialDesign();
+        });
+    </script>
+    <!-- fim scripts bootstrap -->
+
+
+</body></html>
