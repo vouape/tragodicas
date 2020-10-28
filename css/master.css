@@ -7,9 +7,15 @@
 }
 
 #subtitulo {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     opacity: 0.6;
 }
+
+#instagram {
+    padding-bottom: 30px;
+    opacity: 0.6;
+}
+
 
 .filme {
     padding-bottom: 50px;
@@ -35,8 +41,6 @@ p {
     color: #505050;
 }
 
-.onde_assistir {}
-
 .pagination > li > a {
     background-color: white;
     color: #505050;
@@ -51,12 +55,11 @@ a {
     text-decoration: none !important
 }
 
-.sem_link {
-    color: #009688;
+#rodape {
+    padding-top: 20px;
+    opacity: 0.6;
 }
 
 .texto_rodape {
-    margin-top: 50px;
-    color: #909090;
-    font-size: 13px;
+    color: #009688;
 }
