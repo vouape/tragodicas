@@ -7,13 +7,12 @@
 }
 
 #subtitulo {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     opacity: 0.6;
 }
 
 #instagram {
     padding-bottom: 30px;
-    opacity: 0.6;
 }
 
 
@@ -57,7 +56,6 @@ a {
 
 #rodape {
     padding-top: 20px;
-    opacity: 0.6;
 }
 
 .texto_rodape {

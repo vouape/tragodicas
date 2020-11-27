@@ -13,6 +13,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-171041507-2');
+
     </script>
     <!-- Fim script google analytcs -->
 
@@ -38,15 +39,25 @@
             <h5 id="subtitulo">Um site de séries e filmes para os quarenteners</h5>
         </a>
 
-        <p id="instagram">
-            <a href="https://www.instagram.com/trago_dicas/" target="_blank">
-                <img width="30px" src="imagens/instagram_logo.png" alt="logo do instagram">
-                Visite nosso instagram e mande sua dica pra gente!</a>
-        </p>
+
 
 
         <!-- INÍCIO FILMES -->
         <div id="bloco_de_filmes">
+
+            <div class="filme">
+                <h3>Os Segredos de Saqqara</h3>
+                <iframe width="704" height="396" src="https://www.youtube.com/embed/77_UeHKMB-I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="rapidinha">Documentário mostra a rotina emocionante da escavação e descoberta de uma tumba no Egito que estava fechada há milhares de anos.</p>
+                <a class="onde_assistir" href="https://www.justwatch.com/br/filme/secrets-of-the-saqqara-tomb" target="_blank">Onde assistir</a>
+            </div>
+
+            <div class="filme">
+                <h3>I May Destroy You</h3>
+                <iframe width="704" height="396" src="https://www.youtube.com/embed/3iA4jQpxAy8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="rapidinha">Uma série impactante que discute um assunto pesado sob várias camadas de diversão e comédia.</p>
+                <a class="onde_assistir" href="https://www.justwatch.com/br/serie/i-may-destroy-you" target="_blank">Onde assistir</a>
+            </div>
 
             <div class="filme">
                 <h3>The Third Day</h3>
@@ -104,31 +115,6 @@
                 <a class="onde_assistir" href="https://www.stremio.com/" target="_blank">Onde assistir</a>
             </div>
 
-            <div class="filme">
-                <h3>O Roubo da Taça</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/4P2qsnGOv28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">História real do roubo da taça Jules Rimet em 1983. O Larica Total é diversão garantida.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/filme/o-roubo-da-taca" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>The Act</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/Y_5fqDZCjQo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Mini-série baseada em história real retrata a juventude dramática e bizarra da garota Gipsy.<br>Parece chato? Parece chato. Mas não é!</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/serie/the-act" target="_blank">Onde assistir</a>
-            </div>
-
-            
-
-
-
-
-
-
-
-
-
-
             <!-- novo filme deve entrar acima-->
 
         </div>
@@ -165,8 +151,12 @@
         <!-- INÍCIO RODAPÉ -->
 
         <div id="rodape">
-            <a href="https://www.instagram.com/trago_dicas/" target="_blank"><img width="30px" src="imagens/instagram_logo.png" alt="logo instagram"></a>
-            <a href="https://www.instagram.com/trago_dicas/" target="_blank">@trago_dicas</a>
+
+            <p id="instagram">
+                <a href="https://www.instagram.com/trago_dicas/" target="_blank">
+                    <img width="30px" src="imagens/instagram_logo.png" alt="logo do instagram">
+                    Visite nosso Insta e mande sua dica pra gente!</a>
+            </p>
         </div>
 
 
@@ -183,8 +173,11 @@
         $(document).ready(function() {
             $('body').bootstrapMaterialDesign();
         });
+
     </script>
     <!-- fim scripts bootstrap -->
 
 
-</body></html>
+</body>
+
+</html>
