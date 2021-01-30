@@ -2,6 +2,7 @@
 <html lang="pt-br" dir="ltr">
 
 <head>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171041507-2"></script>
     <script>
@@ -16,185 +17,235 @@
     </script>
     <!-- Fim script google analytcs -->
 
-    <meta charset="utf-8" http-equiv="content-type" content="text/html">
 
+
+    <meta charset="utf-8" http-equiv="content-type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Trago Dicas</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-
+    <!-- master.css -->
     <link rel="stylesheet" href="css/master.css">
+    <!-- MDB icon -->
+    <link rel="icon" href="img/icone_trago_dicas_tiny.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Raleway -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="imagens/icone_trago_dicas_tiny.png">
 
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
 </head>
 
 <body>
+    <!-- Start your project here-->
     <div class="container">
-        <a href="index.html">
-            <img src="imagens/velho-cachimbo-tiny.png" alt="logo - velho com cachimbo" style="width:180px;height:180px;margin-top: 30px; border-radius: 100%; background-color: #ffb4a6">
-        </a>
-        <a href="index.html">
-            <h1>Trago Dicas</h1>
-            <h5 id="subtitulo">Um site com dicas de conteúdo para os quarenteners</h5>
-        </a>
+        <div class="d-flex justify-content-center" style="height: 100vh;">
+            <div class="text-center">
+
+                <a href="index.html">
+                    <img src="img/velho-cachimbo-tiny.png" alt="logo - velho com cachimbo" style="width:180px;height:180px;margin-top: 30px; border-radius: 100%; background-color: #ffb4a6">
+                </a>
+                <a href="index.html">
+                    <h1>Trago Dicas</h1>
+                    <h5 id="subtitulo">Um site com dicas de conteúdo para os quarenteners</h5>
+                </a>
 
 
-        <!-- INÍCIO MENU -->
 
-        <div id="menus">
-            <nav class="nav justify-content-center">
-                <a class="nav-item nav-link" href="index.html">Filmes e séries</a>
-                <a class="nav-item nav-link active" href="#">Youtube</a>
-                <a class="nav-item nav-link" href="musica.html">Música</a>
-                <a class="nav-item nav-link " href="podcasts.html">Podcasts</a>
-                <a class="nav-item nav-link " href="jogos.html">Jogos</a>
-            </nav>
+                <!-- INÍCIO NAVBAR -->
+                <div class="dentro-navbar">
+                    <nav class="navbar sticky-top">
+                        <div class="container-fluid">
+                            <a class="nav-item nav-link " href="index.html">Filmes e séries</a>
+                            <a class="nav-item nav-link active" href="youtube.html">Youtube</a>
+                            <a class="nav-item nav-link" href="musica.html">Música</a>
+                            <a class="nav-item nav-link " href="podcasts.html">Podcasts</a>
+                            <a class="nav-item nav-link " href="jogos.html">Jogos</a>
+                        </div>
+                    </nav>
+                    <!-- FIM NAVBAR -->
+
+
+
+                    <!-- INÍCIO YOUTUBE -->
+                    <div id="bloco_de_filmes">
+
+
+                        <div class="filme">
+                            <h3>O Lado B do BBB</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/videoseries?list=PL2qdq9GvIPn63zAsUA1AsUoztQGJNPB9j" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Série de 3 vídeos do canal MOV sobre Big Brother Brasil, mostrando gente arrependida, muita confusão e casos de polícia. É isso que o povo gosta.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/watch?v=6Xct0BTu2Wc&list=PL2qdq9GvIPn63zAsUA1AsUoztQGJNPB9j&index=1" target="_blank">Acesse aqui a playlist</a>
+                        </div>
+
+
+                        <div class="filme">
+                            <h3>Diva Depressão</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/HYOaM7hrcnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Divos do Youtube, postam quase todos os dias sobre cultura pop e internet. Também podem ser encontrados no podcast <a href="https://open.spotify.com/show/6UyPZWXpL08OTjO9KjR1ao" target="_blank">Filhos da Grávida de Taubaté</a>.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/channel/UCMpWpGXG8tlWA6Xban2m6oA" target="_blank">Acesse aqui o canal Diva Depressão</a>
+                        </div>
+
+
+                        <div class="filme">
+                            <h3>Meteoro Brasil</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/gb9gA_NbW4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">O Meteoro Brasil tem uma pegada muito legal de utilizar a cultura pop pra falar de filosofia, política, comportamento e os temas do momento. Está sempre em cima do lance, com texto crítico e sempre muito respeitoso.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw" target="_blank">Acesse aqui o canal Meteoro Brasil</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Mimimídias</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/cGMdjCK-OW0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Canal de um trio muito simpático de BH. Tratam de assuntos relacionados a mídia de uma forma ampla e com profundidade. Eles também tem um podcast chamado <a href="https://open.spotify.com/show/2c3tC8wA3ok0H5bb9lXwvH" target="_blank">Mimimídas em Prosa</a>, super recomendado.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/c/mimimidias/featured" target="_blank">Clique aqui pra acessar o canal Mimimídas</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Galãs Feios</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/4O8vPQoY_Es" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Dois "mal diagramados" fazendo comentário político e explorando os limites do humor involuntário, que está em alta no Brasil. Bastante conteúdo semanal, bom pra dar aquela risada nervosa.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/channel/UC2bZgihqibFD_vhaYEXQZFg" target="_blank">Clique aqui pra acessar o canal Galãs Feios</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Tastemade Brasil</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/dM0hZHmrypM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">O Tastemade Brasil não sabe se é um canal de comida. Diz que não é, mas ninguém sabe. Teve um reality show no início pra selecionar apresentadores, e desde então dá espaço pra diferentes talentos. Entrega bastante experimentação, isso é garantido.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/user/tastemadebr" target="_blank">Clique aqui pra acessar o canal Tastemade Brasil</a>
+                        </div>
+                        <div class="filme">
+                            <h3>Super Oito</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/npaHRsaOxIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">O Super Oito é um canal de crítica de cinema piadista e muito competente. O sotaque alagoano e estilo de humor nordestino dão um toque especial que te tiram do mar de seriedade que são as críticas no youtube.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/channel/UCE8deXi-Eea3SuEV1Q1L4ug" target="_blank">Clique aqui pra acessar o canal Super Oito</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>O Brasil Que Deu Certo</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/zMX8FVpHsjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">O Brasil Que Deu Certo é um canal focado em cultura brasileira que exercita um olhar generoso do Brasil passado e atual, vendo valor onde não costumamos enxergar.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/channel/UCgmkQIp08MsIT46CsmJYxFQ" target="_blank">Clique aqui pra acessar o canal O Brasil Que Deu Certo</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>TV Quase</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/rfoNfegO6YI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">A TV Quase dispensa apresentação. É a galera que está por trás do Choque de Cultura, Falha de Cobertura, Décimo Andar, etc. Achou que aqui ia ter dica ruim? Achou errado considerado internauta!</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/channel/UC033rpv7OKk-QYfrvwl5s8Q" target="_blank">Clique aqui pra acessar o canal TV Quase</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Raphael PH Santos</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/uLkqV-Ri46k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Raphael PH Santos é aquele crítico de cinema que a gente respeita. Tem uma profundidade rara no youtube, conseguindo ser poético e militante quando necessário.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/user/rapha7000" target="_blank">Clique aqui pra acessar o canal Raphael PH Santos</a>
+                        </div>
+
+
+                        <div class="filme">
+                            <h3>Expresso Futuro: China</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/erTFEBPk8hY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Série do Canal Futura voltada pra tecnologia, cidades inteligentes e inovação. Essa temporada com oito episódios sobre a China parece ficção científica.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/watch?v=erTFEBPk8hY&list=PLNM2T4DNzmq6l4HZCe9xZuN8LR0e-M99a" target="_blank">Clique aqui pra acessar a playlist com os 8 episódios</a>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+                    <!-- FIM YOUTUBE -->
+
+                    <!-- PAGINAÇÃO -->
+
+                    <nav aria-label="Navegação de páginas">
+                        <ul class="pagination pagination-circle justify-content-center">
+                            <li class="page-item hidden">
+                                <a class="page-link" href="#" aria-label="Anterior">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+                            </li>
+
+                            <li class="page-item active"><a class="page-link" href="youtube.html">1</a></li>
+                            <li class="page-item"><a class="page-link" href="youtube2.html">2</a></li>
+
+
+                            <li class="page-item">
+                                <a class="page-link" href="youtube2.html" aria-label="Próximo">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Próximo</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- FIM PAGINAÇÃO -->
+
+                    <!-- INÍCIO RODAPÉ -->
+
+                    <div id="rodape">
+
+                        <p id="instagram">
+                            <a href="https://www.instagram.com/trago_dicas/" target="_blank">
+                                <img width="30px" src="img/instagram_logo.png" alt="logo do instagram">
+                                Visite nosso Insta e mande sua dica pra gente!</a>
+                        </p>
+                    </div>
+
+
+                    <!-- FIM RODAPÉ -->
+
+
+                    <!-- BOTÃO TOP -->
+
+                    <button type="button" class="btn btn-primary btn-floating btn-lg" onclick="topFunction()" id="myBtn" title="Go to top">
+                        <i class="fas fa-angle-double-up fa-lg"></i>
+                    </button>
+
+                    <!-- FIM BOTÃO TOP -->
+
+
+                </div>
+            </div>
         </div>
-
-        <!-- FIM MENU -->
-
-
-
-        <!-- INÍCIO YOUTUBE -->
-        <div id="bloco_de_filmes">
-
-
-
-
-            <div class="filme">
-                <h3>Diva Depressão</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/HYOaM7hrcnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Divos do Youtube, postam quase todos os dias sobre cultura pop e internet. Também podem ser encontrados no podcast <a href="https://open.spotify.com/show/6UyPZWXpL08OTjO9KjR1ao" target="_blank">Filhos da Grávida de Taubaté</a>.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/channel/UCMpWpGXG8tlWA6Xban2m6oA" target="_blank">Acesse aqui o canal Diva Depressão</a>
-            </div>
-
-
-            <div class="filme">
-                <h3>Meteoro Brasil</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/gb9gA_NbW4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">O Meteoro Brasil tem uma pegada muito legal de utilizar a cultura pop pra falar de filosofia, política, comportamento e os temas do momento. Está sempre em cima do lance, com texto crítico e sempre muito respeitoso.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw" target="_blank">Acesse aqui o canal Meteoro Brasil</a>
-            </div>
-
-            <div class="filme">
-                <h3>Mimimídias</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/cGMdjCK-OW0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Canal de um trio muito simpático de BH. Tratam de assuntos relacionados a mídia de uma forma ampla e com profundidade. Eles também tem um podcast chamado <a href="https://open.spotify.com/show/2c3tC8wA3ok0H5bb9lXwvH" target="_blank">Mimimídas em Prosa</a>, super recomendado.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/c/mimimidias/featured" target="_blank">Clique aqui pra acessar o canal Mimimídas</a>
-            </div>
-
-            <div class="filme">
-                <h3>Galãs Feios</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/4O8vPQoY_Es" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Dois "mal diagramados" fazendo comentário político e explorando os limites do humor involuntário, que está em alta no Brasil. Bastante conteúdo semanal, bom pra dar aquela risada nervosa.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/channel/UC2bZgihqibFD_vhaYEXQZFg" target="_blank">Clique aqui pra acessar o canal Galãs Feios</a>
-            </div>
-
-            <div class="filme">
-                <h3>Tastemade Brasil</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/dM0hZHmrypM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">O Tastemade Brasil não sabe se é um canal de comida. Diz que não é, mas ninguém sabe. Teve um reality show no início pra selecionar apresentadores, e desde então dá espaço pra diferentes talentos. Entrega bastante experimentação, isso é garantido.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/user/tastemadebr" target="_blank">Clique aqui pra acessar o canal Tastemade Brasil</a>
-            </div>
-            <div class="filme">
-                <h3>Super Oito</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/npaHRsaOxIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">O Super Oito é um canal de crítica de cinema piadista e muito competente. O sotaque alagoano e estilo de humor nordestino dão um toque especial que te tiram do mar de seriedade que são as críticas no youtube.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/channel/UCE8deXi-Eea3SuEV1Q1L4ug" target="_blank">Clique aqui pra acessar o canal Super Oito</a>
-            </div>
-
-            <div class="filme">
-                <h3>O Brasil Que Deu Certo</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/zMX8FVpHsjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">O Brasil Que Deu Certo é um canal focado em cultura brasileira que exercita um olhar generoso do Brasil passado e atual, vendo valor onde não costumamos enxergar.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/channel/UCgmkQIp08MsIT46CsmJYxFQ" target="_blank">Clique aqui pra acessar o canal O Brasil Que Deu Certo</a>
-            </div>
-
-            <div class="filme">
-                <h3>TV Quase</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/rfoNfegO6YI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">A TV Quase dispensa apresentação. É a galera que está por trás do Choque de Cultura, Falha de Cobertura, Décimo Andar, etc. Achou que aqui ia ter dica ruim? Achou errado considerado internauta!</p>
-                <a class="onde_assistir" href="https://www.youtube.com/channel/UC033rpv7OKk-QYfrvwl5s8Q" target="_blank">Clique aqui pra acessar o canal TV Quase</a>
-            </div>
-
-            <div class="filme">
-                <h3>Raphael PH Santos</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/uLkqV-Ri46k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Raphael PH Santos é aquele crítico de cinema que a gente respeita. Tem uma profundidade rara no youtube, conseguindo ser poético e militante quando necessário.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/user/rapha7000" target="_blank">Clique aqui pra acessar o canal Raphael PH Santos</a>
-            </div>
-
-
-            <div class="filme">
-                <h3>Expresso Futuro: China</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/erTFEBPk8hY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Série do Canal Futura voltada pra tecnologia, cidades inteligentes e inovação. Essa temporada com oito episódios sobre a China parece ficção científica.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/watch?v=erTFEBPk8hY&list=PLNM2T4DNzmq6l4HZCe9xZuN8LR0e-M99a" target="_blank">Clique aqui pra acessar a playlist com os 8 episódios</a>
-            </div>
-
-
-
-
-
-
-
-        </div>
-
-        <!-- FIM YOUTUBE -->
-
-        <!-- PAGINAÇÃO -->
-
-        <nav aria-label="Navegação de páginas">
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#" aria-label="Anterior">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-                </li>
-
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="youtube2.html">2</a></li>
-
-
-                <li class="page-item">
-                    <a class="page-link" href="pagina2.html" aria-label="Próximo">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Próximo</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- FIM PAGINAÇÃO -->
-
-        <!-- INÍCIO RODAPÉ -->
-
-        <div id="rodape">
-
-            <p id="instagram">
-                <a href="https://www.instagram.com/trago_dicas/" target="_blank">
-                    <img width="30px" src="imagens/instagram_logo.png" alt="logo do instagram">
-                    Visite nosso Insta e mande sua dica pra gente!</a>
-            </p>
-        </div>
-
-
-        <!-- FIM RODAPÉ -->
-
     </div>
-    <!--FIM CONTAINER-->
+    <!-- End your project here-->
+</body>
 
-    <!-- scripts do bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $('body').bootstrapMaterialDesign();
-        });
-    </script>
-    <!-- fim scripts bootstrap -->
+<!-- MDB -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
 
 
-</body></html>
+<!-- Custom scripts -->
+<script type="text/javascript">
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script></html>

@@ -2,6 +2,7 @@
 <html lang="pt-br" dir="ltr">
 
 <head>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171041507-2"></script>
     <script>
@@ -16,212 +17,234 @@
     </script>
     <!-- Fim script google analytcs -->
 
-    <meta charset="utf-8" http-equiv="content-type" content="text/html">
 
+
+    <meta charset="utf-8" http-equiv="content-type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=0.45" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Trago Dicas</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-
+    <!-- master.css -->
     <link rel="stylesheet" href="css/master.css">
+    <!-- MDB icon -->
+    <link rel="icon" href="img/icone_trago_dicas_tiny.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Raleway -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="imagens/icone_trago_dicas_tiny.png">
 
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
 </head>
 
 <body>
+    <!-- Start your project here-->
     <div class="container">
-        <a href="index.html">
-            <img src="imagens/velho-cachimbo-tiny.png" alt="logo - velho com cachimbo" style="width:180px;height:180px;margin-top: 30px; border-radius: 100%; background-color: #ffb4a6">
-        </a>
-        <a href="index.html">
-            <h1>Trago Dicas</h1>
-            <h5 id="subtitulo">Um site com dicas de conteúdo para os quarenteners</h5>
-        </a>
+        <div class="d-flex justify-content-center" style="height: 100vh;">
+            <div class="text-center">
+
+                <a href="index.html">
+                    <img id="logo" src="img/velho-cachimbo-tiny.png" alt="logo - velho com cachimbo" style="width:180px;height:180px;margin-top: 30px; border-radius: 100%; background-color: #ffb4a6">
+                </a>
+                <a href="index.html">
+                    <h1>Trago Dicas</h1>
+                    <h5 id="subtitulo">Um site com dicas de conteúdo para os quarenteners</h5>
+                </a>
 
 
-        <!-- INÍCIO MENU -->
 
-        <div id="menus">
-            <nav class="nav justify-content-center">
-                <a class="nav-item nav-link active" href="#">Filmes e séries</a>
-                <a class="nav-item nav-link" href="youtube.html">Youtube</a>
-                <a class="nav-item nav-link" href="musica.html">Música</a>
-                <a class="nav-item nav-link " href="podcasts.html">Podcasts</a>
-                <a class="nav-item nav-link " href="jogos.html">Jogos</a>
-            </nav>
+                <!-- INÍCIO NAVBAR -->
+                <div class="dentro-navbar">
+                    <nav class="navbar sticky-top">
+                        <div class="container-fluid">
+                            <a class="nav-item nav-link active" href="#">Filmes e séries</a>
+                            <a class="nav-item nav-link" href="youtube.html">Youtube</a>
+                            <a class="nav-item nav-link" href="musica.html">Música</a>
+                            <a class="nav-item nav-link " href="podcasts.html">Podcasts</a>
+                            <a class="nav-item nav-link " href="jogos.html">Jogos</a>
+                        </div>
+                    </nav>
+                    <!-- FIM NAVBAR -->
+
+
+
+
+
+
+                    <!-- INÍCIO FILMES -->
+                    <div id="bloco_de_filmes">
+
+
+
+                        <div class="filme">
+                            <h3>Ted Lasso</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/lwb7tdvQP0o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Ted Lasso é uma série leve e cativante em que o personagem principal sempre encontra uma forma divertida para lidar com seus problemas e de toda uma equipe de futebol. É um ótimo caso de engenharia social que aquece o coração.</p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/serie/ted-lasso" target="_blank">Onde assistir</a>
+                        </div>
+                        
+                        <div class="filme">
+                            <h3>O Tigre Branco</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/igsPME8oEO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">O Tigre Branco é um filme indiano que mistura Cidade de Deus com Parasita. Mostra a rígida cultura de castas e como ela pode dificultar a ascenção social do jovem Balram.</p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/filme/o-tigre-branco" target="_blank">Onde assistir</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Beforeigners</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/ASr0n5LnWnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Série norueguesa com uma premissa muito interessante: a chegada de imigrantes temporais da idade da pedra, vikings do século XI e um povo do século XIX, todos convivendo misturados na Oslo moderna.</p>
+                            <a class="onde_assistir" href="https://www.hbobrasil.com/br/series/detail/Beforeigners---Os-Visitantes/15276/TTL779035" target="_blank">Onde assistir</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Search Party</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/VbykYDn1A8s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Série de comédia com investigação. Leve e com episódios rápidos, ótima para maratonar.</p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/serie/search-party" target="_blank">Onde assistir</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Evil Genius</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/Qpdb9zo_1t8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Documentário sobre a história chocante que ficou conhecida como caso "Pizza Bomber". Em 2003 um cidadão assaltou um banco com uma bomba amarrado no pescoço. E então... </p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/serie/evil-genius" target="_blank">Onde assistir</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>Pen15</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/Tdt2COuH4Js" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Pen15 é uma série difícil de explicar. Duas meninas vivem seus dramas adolsecentes e escolares, porém as atrizes não tem a mesma idade dos seus coleguinhas. O que torna esquisito e engraçado.</p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/serie/pen15" target="_blank">Onde assistir</a>
+                        </div>
+
+
+
+
+
+
+                        <div class="filme">
+                            <h3>A Odisséia dos Tontos</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/CML52KY4blg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Comédia argentina que mistura Saneamento Básico com Narradores de Javé.</p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/filme/la-odisea-de-los-giles" target="_blank">Onde assistir</a>
+                        </div>
+                        <div class="filme">
+                            <h3>Favela Gay</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/Ob73xp1T710" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Documentário com histórias poderosas de pessoas que lutam pelo direito de existir na comunidade e na sociedade.</p>
+                            <a class="onde_assistir" href="https://www.youtube.com/watch?v=4gjjXLvhOXo" target="_blank">Dá pra assistir completo no youtube</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>O Mandaloriano</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/aOC8E8z_ifw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Série do universo Star Wars, com produção impecável do Waldisney e o personagem mais fofoleti do ano: o Baby Yoda.</p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/serie/o-mandaloriano" target="_blank">Onde assistir</a>
+                        </div>
+
+                        <div class="filme">
+                            <h3>The Undoing</h3>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/jrCgG5hE6U8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="rapidinha">Se tem Nicole Kidman, excelente série!</p>
+                            <a class="onde_assistir" href="https://www.justwatch.com/br/serie/the-undoing" target="_blank">Onde assistir</a>
+                        </div>
+
+                       
+
+
+
+
+
+                    </div>
+                    <!-- FIM FILMES -->
+
+                    <!-- PAGINAÇÃO -->
+
+                    <nav aria-label="Navegação de páginas">
+                        <ul class="pagination pagination-circle justify-content-center">
+                            <li class="page-item hidden">
+                                <a class="page-link" href="#" aria-label="Anterior">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+                            </li>
+
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="pagina2.html">2</a></li>
+                            <li class="page-item"><a class="page-link" href="pagina3.html">3</a></li>
+                            <li class="page-item"><a class="page-link" href="pagina4.html">4</a></li>
+
+                            <li class="page-item">
+                                <a class="page-link" href="pagina2.html" aria-label="Próximo">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Próximo</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- FIM PAGINAÇÃO -->
+
+                    <!-- INÍCIO RODAPÉ -->
+
+                    <div id="rodape">
+
+                        <p id="instagram">
+                            <a href="https://www.instagram.com/trago_dicas/" target="_blank">
+                                <img width="30px" src="img/instagram_logo.png" alt="logo do instagram">
+                                Visite nosso Insta e mande sua dica pra gente!</a>
+                        </p>
+                    </div>
+
+
+                    <!-- FIM RODAPÉ -->
+
+
+                    <!-- BOTÃO TOP -->
+
+                    <button type="button" class="btn btn-primary btn-floating btn-lg" onclick="topFunction()" id="myBtn" title="Go to top">
+                        <i class="fas fa-angle-double-up fa-lg"></i>
+                    </button>
+
+                    <!-- FIM BOTÃO TOP -->
+
+
+                </div>
+            </div>
         </div>
-
-        <!-- FIM MENU -->
-
-
-
-        <!-- INÍCIO FILMES -->
-        <div id="bloco_de_filmes">
-
-            <div class="filme">
-                <h3>A Odisséia dos Tontos</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/CML52KY4blg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Comédia argentina que mistura Saneamento Básico com Narradores de Javé.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/filme/la-odisea-de-los-giles" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>Favela Gay</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/Ob73xp1T710" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Documentário com histórias poderosas de pessoas que lutam pelo direito de existir na comunidade e na sociedade.</p>
-                <a class="onde_assistir" href="https://www.youtube.com/watch?v=4gjjXLvhOXo" target="_blank">Dá pra assistir completo no youtube</a>
-            </div>
-
-            <div class="filme">
-                <h3>O Mandaloriano</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/aOC8E8z_ifw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Série do universo Star Wars, com produção impecável do Waldisney e o personagem mais fofoleti do ano: o Baby Yoda.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/serie/o-mandaloriano" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>The Undoing</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/jrCgG5hE6U8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Se tem Nicole Kidman, excelente série!</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/serie/the-undoing" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>Os Segredos de Saqqara</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/77_UeHKMB-I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Documentário mostra a rotina emocionante da escavação e descoberta de uma tumba no Egito que estava fechada há milhares de anos.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/filme/secrets-of-the-saqqara-tomb" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>I May Destroy You</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/3iA4jQpxAy8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Uma série impactante que discute um assunto pesado sob várias camadas de diversão e comédia.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/serie/i-may-destroy-you" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>The Third Day</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/xwIVCwtwNwQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Pra quem gosta de um suspense, essa série com Jude Law utiliza recursos pouco convencionais como falta de cores e câmera sem foco, que acabam te envolvendo na agonia da trama. HBO lacrando mais uma vez.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/serie/the-third-day" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>Meu Professor Polvo</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/3s0LTDhqe5A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Documentário bonito e emocionante, de um caso bastante curioso. Um maluco que mergulha em apnéia em águas geladas faz amizade com um polvo. Não é um filme de biologia, mas sobre uma jornada humana. </p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/filme/my-octopus-teacher" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>Axé: Canto do Povo de um Lugar</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/KGGyXZnwKhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Esse documentário não é só pra quem gosta de Axé. Vai divertir qualquer pessoa que tenha vivido as décadas de 80 e 90, esse período maravilhoso.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/filme/axe-canto-do-povo-de-um-lugar" target="_blank">Onde assistir</a>
-            </div>
-
-            <div class="filme">
-                <h3>Rede de Ódio</h3>
-                <iframe width="704" height="396" src="https://www.youtube.com/embed/gvjlYUzhijQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="rapidinha">Esse filme é um retrato didático e atual do que rola nos bastidores das campanhas de ódio que circulam pelas redes sociais. E das consequências no mundo real.</p>
-                <a class="onde_assistir" href="https://www.justwatch.com/br/filme/sala-samobojcow-hejter" target="_blank">Onde assistir</a>
-            </div>
-
-
-
-            <!-- novo filme deve entrar acima-->
-
-        </div>
-
-        <!-- FIM FILMES -->
-
-        <!-- PAGINAÇÃO -->
-
-        <nav aria-label="Navegação de páginas">
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#" aria-label="Anterior">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-                </li>
-
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="pagina2.html">2</a></li>
-                <li class="page-item"><a class="page-link" href="pagina3.html">3</a></li>
-                <li class="page-item"><a class="page-link" href="pagina4.html">4</a></li>
-
-                <li class="page-item">
-                    <a class="page-link" href="pagina2.html" aria-label="Próximo">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Próximo</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- FIM PAGINAÇÃO -->
-
-        <!-- INÍCIO RODAPÉ -->
-
-        <div id="rodape">
-
-            <p id="instagram">
-                <a href="https://www.instagram.com/trago_dicas/" target="_blank">
-                    <img width="30px" src="imagens/instagram_logo.png" alt="logo do instagram">
-                    Visite nosso Insta e mande sua dica pra gente!</a>
-            </p>
-        </div>
-
-
-        <!-- FIM RODAPÉ -->
-
-
-        <button type="button" onclick="topFunction()" id="myBtn" title="Go to top">topo</button>
-
-        <i class="fas fa-chevron-circle-down"></i>
-
     </div>
-    <!--FIM CONTAINER-->
+    <!-- End your project here-->
+</body>
 
-    <!-- scripts do bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $('body').bootstrapMaterialDesign();
-        });
-    </script>
-    <!-- fim scripts bootstrap -->
+<!-- MDB -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
 
-    <!-- scripts do botão top -->
-    <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction()
-        };
+<!-- Custom scripts -->
+<script type="text/javascript">
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
         }
+    }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
-    <!-- fim scripts do botão top -->
-
-
-</body></html>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script></html>
