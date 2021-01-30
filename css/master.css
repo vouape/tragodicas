@@ -1,48 +1,62 @@
 .container {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 800px;
-    margin: auto;
-    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
-#subtitulo {
-    padding-bottom: 50px;
-    opacity: 0.6;
+.logo-music {
+    height: 100px;
+    margin: auto
+}
+
+.hidden {
+    display: none;
+}
+
+.slide {
+    width: 704px;
+    margin: auto
 }
 
 #instagram {
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    padding-top: 20px
 }
 
 
 .filme {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .rapidinha {
     font-style: italic;
-    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color: #505050;
+    font-size: 3.5em !Important;
+}
+
+#subtitulo {
+    color: #009688;
+    font-size: 1.5em !Important;
 }
 
 h3 {
     color: #505050;
-    margin-bottom: 15px;
+    padding-bottom: 15px
 }
 
 p {
     color: #505050;
+    width: 704px;
 }
 
 .pagination > li > a {
     background-color: white;
-    color: #505050;
+    color: #25291c;
 }
 
 .pagination > .active > a {
@@ -50,14 +64,52 @@ p {
     border: solid 1px #FFB4A6 !Important;
 }
 
-a {
-    text-decoration: none !important
-}
-
 #rodape {
     padding-top: 20px;
 }
 
+.navbar {
+    margin-top: 10px;
+    padding-top: 20px !Important;
+    margin-bottom: 70px !Important;
+    padding-bottom: 20px !Important;
+    font-weight: bold;
+}
+
+.container-fluid a {
+    color: #FFB4A6 !Important;
+    text-transform: uppercase;
+}
+
+nav .active {
+    color: #009688 !Important;
+}
+
 .texto_rodape {
     color: #009688;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+/* CSS do botao TOP */
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 30px;
+    /* Place the button at the bottom of the page */
+    right: 40px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    background-color: #ffb4a6;
+
+
 }
