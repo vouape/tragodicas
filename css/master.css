@@ -1,24 +1,44 @@
-.container {
-    font-family: 'Raleway', sans-serif;
-}
-
-.logo-music {
-    height: 100px;
-    margin: auto
-}
-
-.hidden {
-    display: none;
-}
-
-.slide {
+#carouselExampleControls {
     width: 704px;
-    margin: auto
+    margin: auto;
+}
+
+.img-podcast {
+    width: 350px;
+    border-radius: 15px
+}
+
+nav > .nav-item {
+    color: #FFB4A6;
+}
+
+nav > .active {
+    color: #009688 !Important
+}
+
+#menus {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 60px;
+
+}
+
+.container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#subtitulo {
+    padding-bottom: 20px;
+    opacity: 0.6;
+    color: #25291c
 }
 
 #instagram {
-    padding-bottom: 60px;
-    padding-top: 20px
+    padding-bottom: 30px;
 }
 
 
@@ -34,24 +54,17 @@
 
 h1 {
     padding-top: 20px;
-    padding-bottom: 20px;
-    color: #505050;
-    font-size: 3.5em !Important;
-}
-
-#subtitulo {
-    color: #009688;
-    font-size: 1.5em !Important;
+    padding-bottom: 10px;
+    color: #25291c;
 }
 
 h3 {
-    color: #505050;
-    padding-bottom: 15px
+    color: #25291c;
+    margin-bottom: 15px;
 }
 
 p {
-    color: #505050;
-    width: 704px;
+    color: #25291c;
 }
 
 .pagination > li > a {
@@ -64,52 +77,28 @@ p {
     border: solid 1px #FFB4A6 !Important;
 }
 
+a {
+    text-decoration: none !important
+}
+
 #rodape {
     padding-top: 20px;
-}
-
-.navbar {
-    margin-top: 10px;
-    padding-top: 20px !Important;
-    margin-bottom: 70px !Important;
-    padding-bottom: 20px !Important;
-    font-weight: bold;
-}
-
-.container-fluid a {
-    color: #FFB4A6 !Important;
-    text-transform: uppercase;
-}
-
-nav .active {
-    color: #009688 !Important;
 }
 
 .texto_rodape {
     color: #009688;
 }
 
-.sticky-top {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-}
 
-/* CSS do botao TOP */
+/* css do botão top*/
 
 #myBtn {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Fixed/sticky position */
-    bottom: 30px;
+    bottom: 20px;
     /* Place the button at the bottom of the page */
-    right: 40px;
+    right: 30px;
     /* Place the button 30px from the right */
     z-index: 99;
     /* Make sure it does not overlap */
-    background-color: #ffb4a6;
-
-
 }
