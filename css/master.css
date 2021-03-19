@@ -54,12 +54,12 @@ p {
     width: 704px;
 }
 
-.pagination > li > a {
+.pagination>li>a {
     background-color: white;
     color: #25291c;
 }
 
-.pagination > .active > a {
+.pagination>.active>a {
     background-color: #FFB4A6 !Important;
     border: solid 1px #FFB4A6 !Important;
 }
@@ -112,4 +112,30 @@ nav .active {
     background-color: #ffb4a6;
 
 
+}
+
+/* CSS do responsivo */
+
+
+@media screen and (max-device-width: 600px) {
+
+    h3 {
+        font-size: 280% !Important;
+    }
+
+    .rapidinha,
+    .onde_assistir,
+    #instagram {
+        font-size: 1.5em;
+    }
+
+    #subtitulo {
+        font-size: 1.7em !Important;
+    }
+
+    .nav-link {
+        font-size: 1.2em;
+    }
+
+    
 }
