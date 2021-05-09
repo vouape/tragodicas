@@ -1,3 +1,31 @@
+.spotify {
+    display: inline-block;
+    width: 350px;
+    height: 80px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.div-veja {
+    margin-bottom: 50px;
+}
+
+.veja-mais {
+    font-size: 1.5em;
+    color: #FFB4A6;
+}
+
+.titulo-destaque {
+    color: #009688 !Important;
+    text-align: left;
+}
+
 .container {
     font-family: 'Raleway', sans-serif;
 }
@@ -23,7 +51,8 @@
 
 
 .filme {
-    padding-bottom: 80px;
+    padding-bottom: 65px;
+    padding-top: 20;
 }
 
 .rapidinha {
@@ -39,14 +68,14 @@ h1 {
     font-size: 3.5em !Important;
 }
 
-#subtitulo {
-    color: #009688;
-    font-size: 1.5em !Important;
-}
-
 h3 {
     color: #505050;
     padding-bottom: 15px
+}
+
+#subtitulo {
+    color: #009688;
+    font-size: 1.5em !Important;
 }
 
 p {
@@ -62,6 +91,13 @@ p {
 .pagination>.active>a {
     background-color: #FFB4A6 !Important;
     border: solid 1px #FFB4A6 !Important;
+
+}
+
+.pagination a {
+    font-size: 1.8em;
+    width: 60px;
+    height: 60px;
 }
 
 #rodape {
@@ -71,7 +107,7 @@ p {
 .navbar {
     margin-top: 10px;
     padding-top: 20px !Important;
-    margin-bottom: 70px !Important;
+    margin-bottom: 40px !Important;
     padding-bottom: 20px !Important;
     font-weight: bold;
 }
@@ -114,13 +150,139 @@ nav .active {
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* CSS do responsivo */
+
+
+/* Tela GRANDE maior que 600px */
+
+@media screen and (min-device-width: 600px) {
+
+
+    .bloco_de_musica {
+        margin-bottom: 110px;
+    }
+
+    #ultimo-bloco {
+        margin-bottom: 0px;
+    }
+
+
+    .img-spotify {
+        display: inline-block;
+
+    }
+
+    .iframes-spotify {
+        display: inline-block;
+    }
+
+    .spotify {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .filme {
+        padding-bottom: 40px;
+    }
+
+    .row>* {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .row {
+        width: 704px;
+        margin-bottom: 80px;
+    }
+
+    .column {
+        float: left;
+
+    }
+
+    .left {
+        width: 36% !important;
+    }
+
+    .right {
+        width: 64% !important;
+        position: relative;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+}
+
+/* Tela pequena menor que 600px */
 
 
 @media screen and (max-device-width: 600px) {
 
+    .bloco_de_musica {
+        margin-top: 80px;
+        margin-bottom: 105px;
+    }
+
+    .spotify {
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    .avatar {
+        border-radius: 50%;
+        width: 450px;
+        height: 450px;
+        object-fit: cover;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .navbar {
+        margin-bottom: 0px !important;
+    }
+
+
+
+    .filme {
+        padding-bottom: 25px;
+        padding-top: 15px;
+    }
+
+    .veja-mais {
+        font-size: 2.5em;
+        color: #FFB4A6;
+        font-weight: 550;
+    }
+
+    .div-veja {
+        margin-top: 30px;
+    }
+
     h3 {
-        font-size: 280% !Important;
+        font-size: 2.8em !Important;
+    }
+
+    h4 {
+        font-size: 2.5em !important;
+
+    }
+
+    .titulo-destaque {
+        padding-top: 80px;
+        font-size: 3.4em !Important;
+
     }
 
     .rapidinha,
@@ -137,5 +299,13 @@ nav .active {
         font-size: 1.2em;
     }
 
-    
+    .pagination>li>a {
+        font-size: 40px;
+    }
+
+    .pagination a {
+        width: 75px;
+        height: 75px;
+    }
+
 }
