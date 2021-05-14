@@ -45,8 +45,16 @@
 }
 
 #instagram {
-    padding-bottom: 60px;
     padding-top: 20px
+}
+
+.gif-contato {
+    border-radius: 10%;
+    margin-bottom: 40px;
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 
@@ -68,7 +76,7 @@ h1 {
     font-size: 3.5em !Important;
 }
 
-h3 {
+h2 {
     color: #505050;
     padding-bottom: 15px
 }
@@ -270,7 +278,7 @@ nav .active {
         margin-top: 30px;
     }
 
-    h3 {
+    h2 {
         font-size: 2.8em !Important;
     }
 
